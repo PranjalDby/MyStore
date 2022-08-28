@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:theme="@style/ThemeOverlay.Material3.DynamicColors.DayNight"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableLeft="@drawable/ic_baseline_people2_24"
+        android:linksClickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:theme="@style/ThemeOverlay.Material3.DynamicColors.DayNight"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/email"
+        android:linksClickable="true"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        android:theme="@style/ThemeOverlay.Material3.DynamicColors.DayNight"
+        android:linksClickable="true"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        android:theme="@style/ThemeOverlay.Material3.DynamicColors.DayNight"
+        android:drawableLeft="@drawable/ic_baseline_currency_rupee_24"
+        android:linksClickable="true"
+        android:contextClickable="true"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="12dp"
+        android:theme="@style/ThemeOverlay.Material3.DynamicColors.DayNight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amount"
+        android:layout_marginBottom="10dp"
+        android:linksClickable="true"
+        android:drawableLeft="@drawable/ic_baseline_date_range_24"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentList"
+    android:id="@+id/fragmentlist"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="655dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            style="@style/Theme.Material3.DynamicColors.Dark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:scrollIndicators="right"
+            android:theme="@style/Theme.Material3.DayNight"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

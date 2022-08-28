@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCustomers"
+    android:id="@+id/fragmentcustomer"
+    android:gravity="center"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Mystore"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:theme="@style/Theme.Material3.DynamicColors.DayNight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="32dp"
+            android:text="for android"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:theme="@style/Theme.Material3.DynamicColors.DayNight"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:layout_editor_absoluteX="9dp" />
+
+        <TextView
+            android:id="@+id/txtview5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:theme="@style/Theme.Material3.DynamicColors.DayNight"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:layout_editor_absoluteX="10dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
